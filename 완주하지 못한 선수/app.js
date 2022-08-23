@@ -15,15 +15,6 @@ function solution(participant, completion) {
     return participant[i];
 }
 
-// map
-
-function solution2(participant, completion) {
-    let hashed = [];
-    participant.forEach(element => {
-        console.log(element);
-    });
-
-}
 
 solution(["leo", "kiki", "eden"], ["eden", "kiki"]);
 solution(["marina", "josipa", "nikola", "vinko", "filipa"], ["josipa", "filipa", "marina", "nikola"]);
